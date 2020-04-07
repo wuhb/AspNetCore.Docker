@@ -18,6 +18,6 @@ COPY --from=publish /app /app
 
 WORKDIR /app
 
-EXPOSE 80
+EXPOSE 8001
 
 ENTRYPOINT ["dotnet", "AspNetCore.Docker.dll"]
